@@ -1,0 +1,44 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+img{
+  display: block;
+}
+.container{
+  width: 80%;
+  display: block;
+}
+.clear{
+  clear: both;
+  display: block;
+}
+header{
+  padding: 20px 0;
+}
+header h1{
+  font-size: 30px;
+  font-family:'Courier New', Courier, monospace;
+  color: beige;
+}
+nav{
+  background-color: brown;
+}
+.menu{
+  padding: 15px 0;
+}
+.menu a{
+  color: antiquewhite;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 0 20px;
+}
+.menu a:first-child{
+  padding-left: 0;
+}
+.menu a:hover{
+  color: aquamarine;
+  text-decoration: underline;
+}
